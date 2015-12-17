@@ -1,4 +1,6 @@
 from osgeo import ogr
+import osgeo.osr as osr
+
 import os
 
 # Get a Layer's Extent
@@ -28,9 +30,13 @@ if os.path.exists(outShapefile):
 
 # https://pcjericks.github.io/py-gdalogr-cookbook/vector_layers.html
 
+# create the spatial reference, WGS84
+srs = osr.SpatialReference()
+srs.ImportFromEPSG(4326)
+
 # Create the output shapefile
 outDataSource = outDriver.CreateDataSource(outShapefile)
-outLayer = outDataSource.CreateLayer("stops_extent", geom_type=ogr.wkbPolygon)
+outLayer = outDataSource.CreateLayer("stops_extent", srs, geom_type=ogr.wkbPolygon)
 
 # Add an ID field
 idField = ogr.FieldDefn("id", ogr.OFTInteger)
