@@ -1,0 +1,12 @@
+Vous trouverez dans ce repertoire les exemples de code et les solutions des
+exercices correspondant a l'ouvrage : "Apprendre a programmer avec Python 3"
+de Gerard Swinnen (éditions 2 et 3 chez Eyrolles).
+
+Ces exemples ne fonctionneront pas avec les versions de Python anterieures
+a la version 3.0.
+
+Les exemples adaptes aux versions de Python anterieures a la version 3.0 se
+trouvent dans le sous-repertoire /python2.
+
+Des exemples fonctionnant a la fois sous Python 2 (version >= 2.6) et Python 3
+sont rassembles dans le sous-repertoire /py3onpy2.

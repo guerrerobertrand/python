@@ -1,0 +1,35 @@
+La <b>programmation</b> est l’art d’apprendre à une machine comment accomplir de nouvelles tâches, qu’elle n’avait jamais été capable d’effectuer auparavant.
+C’est par la programmation que vous pourrez acquérir le plus de contrôle, non seulement sur votre machine, mais aussi peut-être sur celles des autres par l’intermédiaire des réseaux. D’une certaine façon, cette activité peut donc être assimilée à une forme particulière de magie.
+Elle donne effectivement à celui qui l’exerce un certain pouvoir, mystérieux pour le plus grand nombre, voire inquiétant quand on se rend compte qu’il peut être utilisé à des fins malhonnêtes.
+Dans le monde de la programmation, on désigne par le terme <b><i>hacker</i></b> les programmeurs chevronnés qui ont perfectionné les systèmes d’exploitation de type Unix et mis au point les techniques de communication qui sont à la base du développement extraordinaire de l’Internet.
+Ce sont eux également qui continuent inlassablement à produire et à améliorer les logiciels libres (<i>Open Source</i>).
+Selon notre analogie, les hackers sont donc des maîtres-sorciers, qui pratiquent la magie blanche. 
+Mais il existe aussi un autre groupe de gens que les journalistes mal informés désignent erronément sous le nom de <i>hackers</i>, alors qu’ils devraient plutôt les appeler <i>crackers</i>.
+Ces personnes se prétendent <i>hackers</i> parce qu’ils veulent faire croire qu’ils sont très compétents, alors qu’en général ils ne le sont guère.
+Ils sont cependant très nuisibles, parce qu’ils utilisent leurs quelques connaissances pour rechercher les moindres failles des systèmes informatiques construits par d’autres, afin d’y effectuer toutes sortes d’opérations illicites : vol d’informations confidentielles, escroquerie, diffusion de spam, de virus, de propagande haineuse, de pornographie et de contrefaçons, destruction de sites web, etc.
+Ces sorciers dépravés s’adonnent bien sûr à une forme grave de magie noire.
+Mais il y en a une autre.
+Les vrais <i>hackers</i> cherchent à promouvoir dans leur domaine <u>une certaine éthique</u>, basée principalement sur l’émulation et le partage des connaissances. La plupart d’entre eux sont des perfectionnistes, qui veillent non seulement à ce que leurs constructions logiques soient efficaces, mais aussi à ce qu’elles soient élégantes, avec une structure parfaitement lisible et documentée.
+Vous découvrirez rapidement qu’il est aisé de produire à la va-vite des programmes qui fonctionnent, certes, mais qui sont obscurs et confus, indéchiffrables pour toute autre personne que leur auteur (et encore !).
+Cette forme de programmation absconse et ingérable est souvent aussi qualifiée de « magie noire » par les <i>hackers</i>.
+<b>La démarche du programmeur</b>
+Comme le sorcier, le programmeur compétent semble doté d’un pouvoir étrange qui lui permet de transformer une machine en une autre, une machine à calculer en une machine à écrire ou à dessiner, par exemple, un peu à la manière d’un sorcier qui transformerait un prince charmant en grenouille, à l’aide de quelques incantations mystérieuses entrées au clavier.
+Comme le sorcier, il est capable de guérir une application apparemment malade, ou de jeter des sorts à d’autres, via l’Internet.
+Mais comment cela est-il possible ?
+Cela peut paraître paradoxal, mais comme nous l’avons déjà fait remarquer plus haut, le vrai maître est en fait celui qui ne croit à aucune magie, à aucun don, à aucune intervention surnaturelle.
+Seule la froide, l’implacable, l’inconfortable logique est de mise.
+Le mode de pensée d’un programmeur combine des constructions intellectuelles complexes, similaires à celles qu’accomplissent les mathématiciens, les ingénieurs et les scientifiques.
+Comme le mathématicien, il utilise des langages formels pour décrire des raisonnements (ou algorithmes). Comme l’ingénieur, il conçoit des dispositifs, il assemble des composants pour réaliser des mécanismes et il évalue leurs performances. Comme le scientifique, il observe le comportement de systèmes complexes, il crée des modèles, il teste des prédictions.
+<b><i>L’activité essentielle d’un programmeur consiste à résoudre des problèmes.</i></b>
+Il s’agit-là d’une compétence de haut niveau, qui implique des capacités et des connaissances diverses : être capable de (re)formuler un problème de plusieurs manières différentes, être capable d’imaginer des solutions innovantes et efficaces, être capable d’exprimer ces solutions de manière claire et complète.
+Comme nous l’avons déjà évoqué plus haut, il s’agira souvent de mettre en lumière les implications concrètes d’une représentation mentale « magique », simpliste ou trop abstraite.
+La programmation d’un ordinateur consiste en effet à « expliquer » en détail à une machine ce qu’elle doit faire, en sachant d’emblée qu’elle ne peut pas véritablement « comprendre » un langage humain, mais seulement effectuer un traitement automatique sur des séquences de caractères.
+Il s’agit la plupart du temps de convertir un souhait exprimé à l’origine en termes « magiques », en un vrai raisonnement parfaitement structuré et élucidé dans ses moindres détails, que l’on appelle un algorithme.
+Considérons par exemple une suite de nombres fournis dans le désordre : 47, 19, 23, 15, 21, 36, 5, 12 …
+Comment devons-nous nous y prendre pour obtenir d’un ordinateur qu’il les remette dans l’ordre ?
+Le souhait « magique » est de n’avoir qu’à cliquer sur un bouton, ou entrer une seule instruction au clavier, pour qu’automatiquement les nombres se mettent en place. Mais le travail du sorcier-programmeur est justement de créer cette « magie ».
+Pour y arriver, il devra décortiquer tout ce qu’implique pour nous une telle opération de tri (au fait, existe-t-il une méthode unique pour cela, ou bien y en a-t-il plusieurs ?), et en traduire toutes les étapes en une suite d’instructions simples, telles que par exemple « comparer les deux premiers nombres, les échanger s’ils ne sont pas dans l’ordre souhaité, recommencer avec le deuxième et le troisième, etc. ».
+Si les instructions ainsi mises en lumière sont suffisamment simples, il pourra alors les encoder dans la machine en respectant de manière très stricte un ensemble de conventions fixées à l’avance, que l’on appelle un langage informatique.
+Pour « comprendre » celui-ci, la machine sera pourvue d’un mécanisme qui décode ces instructions en associant à chaque « mot » du langage une action précise.
+Ainsi seulement, la magie pourra s’accomplir.
+

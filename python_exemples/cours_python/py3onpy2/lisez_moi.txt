@@ -1,0 +1,9 @@
+Ce répertoire contient les scripts Python du livre "Apprendre à programmer avec Python 3" (3e édition chez Eyrolles - 5e édition au total), adaptés de manière à pouvoir indifféremment être exécutés sous Python 3 ainsi que sur les versions "compatibles avec le futur" de Python 2 (à savoir Python 2.6 ou 2.7).
+
+Veuillez consulter le chapitre 18 du livre pour informations complémentaires.
+
+Les exemples fonctionnant seulement sous Python 2 (toutes versions) se
+trouvent dans le sous-répertoire /python2.
+
+Les exemples fonctionnant exclusivement sous Python 3 sont rassemblés dans le sous-répertoire /python3.
+

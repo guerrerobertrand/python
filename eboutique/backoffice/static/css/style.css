@@ -1,0 +1,295 @@
+/*--------------------------------------------------------------------- */
+/* DEBUG*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+input{
+	margin: 0;
+	padding: 0;
+}
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+/* FIN DEBUG */
+/*--------------------------------------------------------------------- */
+
+/*--------------------------------------------------------------------- */
+/* GENERAL */
+body{
+	font-family: "American Typewriter","Courier New",Courier,Monaco,mono;
+	background:#EAEAEA;
+}
+header div, section{
+	max-width: 990px;
+	margin: 0 auto;
+}
+h1, h2{
+	font-size: 2.0em;
+}
+p{
+	margin: 10px 0;
+}
+/* FIN GENERAL */
+/*--------------------------------------------------------------------- */
+
+/*--------------------------------------------------------------------- */
+/* HEADER */
+header{
+	min-height: 515px;
+	background: url('dogbanner.jpg') no-repeat top center ;
+	background-size:cover;
+	padding: 15px 0;
+	margin: 0 auto;
+	color: white;
+}
+header>div>h1{
+	margin-top: 8px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 60%
+}
+header>div>h2{
+	font-size: 1.5em;
+	text-align: center;
+	padding-bottom: 5px;
+}
+/** NAV **/
+nav{
+	border-top: 1px solid #fff;
+	margin: 0 10px;
+	text-transform: uppercase;
+}
+nav ul{
+	margin: 15px 0;
+	text-align: center;
+}
+nav li{
+	display: inline-block;
+	width: calc( 96% / 4 );
+	font-size: 1.0em;
+	font-family: Helvetica, Arial, serif;
+}
+nav a, nav a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+nav a:hover, nav a:active{
+	color: rgba(255, 255, 255, 0.5);
+}
+/** FIN Nav **/
+/** Accroche**/
+header div#accorche{
+	min-height: 220px;
+	max-width: 370px;
+	margin: 20px;
+	padding: 40px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+header div#accorche a, header div#accorche a:visited{
+	display: block;
+	width: 150px;
+	margin: 20px 0 0 0;
+	padding: 15px;
+	border: 2px solid #fff; 
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+header div#accorche a:hover, header div#accorche a:active{
+	background: rgba(255, 255, 255, 0.5);
+}
+header div#accorche p{
+	font-family: Helvetica, Arial;
+	font-size: 1.2em;
+}
+/** FIN Accroche**/
+/* FIN HEADER */
+/*--------------------------------------------------------------------- */
+
+/*--------------------------------------------------------------------- */
+/* SECTION */
+section{
+	margin: 0 auto;
+	padding: 50px 0;
+}
+/** Article **/
+section article{
+	float: left;
+	width: 60%;
+	min-height: 245px;
+	padding: 2%;
+	vertical-align: top;
+	background:#fff;
+	box-shadow: 1px 1px 12px #ccc;
+}
+/** FIN Article **/
+/** Aside **/
+section aside{
+	float: left;
+	width: 32%;
+	padding: 0 0 0 2%;
+}
+section aside img{
+	width: 140px;
+	height: 140px;
+}
+/** FIN Aside **/
+/* FIN SECTION */
+/*--------------------------------------------------------------------- */
+
+/*--------------------------------------------------------------------- */
+/* FOOTER */
+footer{
+	padding: 45px 15px;
+	background:#fff;
+}
+footer article, footer>div{
+	max-width: 930px;
+	margin: 0 auto;
+}
+footer a, footer a:visited{
+	color: #000;
+	text-decoration: none;
+}
+footer a:hover, footer a:active{
+	color: rgba(0, 0, 0, 0.5);
+}
+/** FOOTER Article **/
+footer article{
+	padding: 20px;
+	background:#EAEAEA;
+	box-shadow: 1px 1px 12px #ccc;
+	overflow: auto;
+}
+footer article p{
+	padding-top: 10px;
+}
+footer article a, footer article a:visited{
+	float: right;
+	width: 150px;
+	padding: 15px;
+	border: 2px solid #000; 
+	border-radius: 5px;
+	text-align: center;
+}
+footer article a:hover, footer article a:active{
+	background: rgba(0, 0, 0, 0.1);
+}
+/** FOOTER Copyright ou nav **/
+footer #copyright, footer nav{
+	float: left;
+	width:50%;
+	margin: 40px 0 0 0;
+	padding: 10px 0;
+	font-size: 0.8em;
+}
+footer nav{
+	text-align: right;
+	text-transform: none;
+}
+/* FIN FOOTER */
+/*--------------------------------------------------------------------- */
+
+/*--------------------------------------------------------------------- */
+/* Si la fenêtre fait au plus 1024px de large */
+@media all and (max-width: 1024px)
+{
+	nav li{
+		width: calc( 86% / 4 );
+	}
+	header div#accorche{
+		min-height: none;
+		max-width: none;
+		width: 88%;
+		box-sizing: border-box;
+	}
+	/* SECTION */
+	section{
+		margin: 0 auto;
+	}
+	/** Article **/
+	section article{
+		display: block;
+		width: auto;
+		height: auto;
+		padding: 2%;
+		vertical-align: top;
+		background:#fff;
+		box-shadow: 1px 1px 12px #ccc;
+	}
+	/** FIN Article **/
+	/** Aside **/
+	section aside{
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 2%;
+	}
+	section aside img{
+		width: auto;
+		height: auto;
+	}
+	/** FIN Aside **/
+	/* FOOTER */
+	footer #copyright, footer nav{
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+	footer nav{
+		margin: 5px 0 0 0;
+		text-align: right;
+	}
+	/* FIN FOOTER */
+}
+/*--------------------------------------------------------------------- */
+
+/*--------------------------------------------------------------------- */
+/* Si la fenêtre fait au plus 384px de large */
+@media all and (max-width: 384px)
+{
+	section aside img{
+		width: 40%;
+		height: 40%;
+	}
+	/** FIN Aside **/
+}
+/*--------------------------------------------------------------------- */

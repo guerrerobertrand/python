@@ -1,0 +1,3 @@
+Un nouveau chapitre 18 a été incorporé à la troisième édition du livre (chez Eyrolles). Vous trouverez les Les scripts correspondant à celui-ci dans le répertoire py3onpy2 (ce sont en effet des scripts conçus pour être exécutables à la fois sous Python 3 et sous Python 2.6).
+
+Les scripts correspondant à l'ancien chapitre 18 ont été transférés dans le répertoire chap19. 

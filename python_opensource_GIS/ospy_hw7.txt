@@ -1,0 +1,3 @@
+In the FWTools shell, change to the directory with the shapefile, and then type this:
+
+ogr2ogr -f "KML" -dsco NameField="STATE_NAME" states.kml states.shp
