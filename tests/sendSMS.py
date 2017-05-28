@@ -4,8 +4,8 @@ import sys
 import urllib
 
 # Free mobile credentials
-free_user = "13049970"
-free_pass = "bSrp7GGQ107VQd"
+free_user = "XXXXXXXXXX"
+free_pass = "XXXXXXXXXX"
 
 # Send SMS message using free mobile API
 def send_sms(msg):
@@ -19,4 +19,4 @@ def send_sms(msg):
     e = sys.exc_info()[0]
     print(str(e))
 
-send_sms("Bisous FOREVER")
+send_sms("LOVE U FOREVER")
